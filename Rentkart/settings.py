@@ -140,9 +140,3 @@ AUTH_USER_MODEL = 'accounts.User'
 
 load_dotenv()
 
-
-'''
-TELEGRAM_BOT_TOKEN=8552428202:AAGjcrJMKHFernlDVuxdnoqzlLuGSJzBAsQ
-TELEGRAM_CHAT_ID=1034620952
-
-'''
