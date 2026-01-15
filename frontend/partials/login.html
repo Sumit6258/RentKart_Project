@@ -1,0 +1,14 @@
+<div class="auth-card">
+    <h4 class="mb-3">Login / Signup</h4>
+
+    <input class="form-control mb-2" placeholder="Phone number" ng-model="phone">
+
+    <button class="btn btn-dark w-100 mb-3" ng-click="sendOtp()">
+        Send OTP
+    </button>
+
+    <div ng-if="otpSent">
+        <input class="form-control mb-2" placeholder="Enter OTP" ng-model="otp">
+        <button class="btn btn-success w-100" ng-click="verifyOtp()">Verify & Continue</button>
+    </div>
+</div>
